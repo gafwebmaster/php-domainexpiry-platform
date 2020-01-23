@@ -1,0 +1,26 @@
+body{
+    background: url('../img/background.jpeg');
+}
+
+/*Change the bootstrap standard blue color*/
+.btn-success{
+    color: #fff;
+    border-color: #3ba9de;
+    background-color: #3ba9de;
+} 
+
+.btn-success:hover{    
+    border-color: #267da7;
+    background-color: #267da7;
+}
+
+input[type="submit"]:disabled {
+    border-color: #87bdd7;
+    background-color: #87bdd7;
+}
+
+@media only screen and (max-width: 390px){
+    .navbar-brand img{
+        width: 150px;
+    }
+}
